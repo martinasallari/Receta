@@ -1,0 +1,156 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcfbf7; 
+    color: #2b2b2b;
+    line-height: 1.6;
+}
+
+
+.header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 10%;
+   
+    
+}
+
+.logo h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #bc8a5f; 
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #bc8a5f;
+}
+
+
+.recipe-section {
+    padding: 5rem 10%;
+}
+
+.recipe-container {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.recipe-container.reverse {
+    flex-direction: row-reverse;
+}
+
+.recipe-info {
+    flex: 1;
+}
+
+.recipe-media {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.category {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #bc8a5f;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.recipe-info h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.recipe-info h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #333;
+    border-bottom: 2px solid #f0e6df;
+    padding-bottom: 0.3rem;
+}
+
+.recipe-info ul, 
+.recipe-info ol {
+    margin-bottom: 2rem;
+    padding-left: 1.2rem;
+}
+
+.recipe-info li {
+    margin-bottom: 0.6rem;
+    color: #444;
+}
+
+
+.recipe-media img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover; /* Evita que la imagen se deforme */
+    border-radius: 8px;
+    
+}
+
+.recipe-media video {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    background-color: #000;
+}
+
+
+.separator {
+    border: 0;
+    height: 1px;
+    background: #e6dfd9;
+    margin: 0 10%;
+}
+
+
+.footer {
+    background-color: #1a1a1a;
+    color: #888;
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+}
